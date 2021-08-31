@@ -25,13 +25,14 @@
         }
 
 
-        .msg404{
+        .img404{
             display: flex;
             justify-content: center;
             margin-bottom: 30px;
         }
+
         #img404{
-            width:54vw;
+            width: 50%;
         }
 
         .row {
@@ -49,12 +50,15 @@
             padding-bottom: 30px;
         }
         @media  (max-width: 568px){
-            .errmsg{
-                font-size: 4vw
+            .errmsg p{
+                font-size:16px
             }
            .icon{
                width:36vw
            }
+           #img404{
+            width: 80%;
+        }
         }
     </style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -69,12 +73,12 @@
 </head>
 
 <body>
-    <div class="msg404">
+    <div class="img404">
         <img id='img404' src="images/Group.png">
     </div>
     <div class='errmsg'>
         <p>很抱歉，您前往的頁面已失效，或是此頁面不存在。</p>
-        </p>也許您對以下的連結頁面有興趣：</p>
+        <p>也許您對以下的連結頁面有興趣：</p>
     </div>
     <div class='container'>
         <div class='row justify-content-around'>
